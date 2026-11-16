@@ -1,5 +1,28 @@
 # Keitimų žurnalas
 
+## 2026-11-16 – Inventorizacija PRO gyvai (revision.lt)
+
+Į `main` įkeltas peržiūros `site.zip` iš `grantaspazera-dot/revision-web-preview` commit `2a38fef` (ekranų nuotraukos, mokymų žingsniai, Inventorizacija PRO pavadinimas). Peržiūros nustatymai paversti gyvais:
+
+- pašalintas `<meta name="robots" content="noindex,nofollow">` iš visų HTML;
+- grąžinti gyvi `robots.txt` (`Allow: /` ir `Sitemap`) ir `sitemap.xml` (naujų puslapių nebuvo);
+- grąžintas `CNAME` (`revision.lt`);
+- kanoniniai adresai lieka `https://revision.lt/`;
+- užklausos forma lieka `https://forma.revision.lt/send.php`.
+
+Neliesta: `.github/workflows/deploy.yml`.
+
+Atsarginė kopija prieš publikavimą: šaka `backup/pre-pro-2026-11-16` ir žyma `pre-pro-2026-11-16` (commit `7e4a6ca`).
+
+### Atšaukimas
+
+```bash
+git revert <šio-commit>
+git push origin main
+```
+
+Tai vėl išpakuoja ankstesnį `site.zip`. DNS, `CNAME` ir Pages nustatymų nekeiskite.
+
 ## 2026-11-10 – Inventorizacija PRO kainodara
 
 Vieša programos nuoma aprašyta kaip **Inventorizacija PRO** (REVISION ONLINE). Keturi planai už vieną inventorizaciją, 7 dienų prieiga, kainos be PVM: MINI 50 €, VID 100 €, MAXI 150 € (ženklelis „Populiariausias“), PRO 200 €. Papildoma inventorizacija ir kiekviena papildoma diena po 7 dienų – 50 % plano kainos (25 / 50 / 75 / 100 €). Tai pakeičia 100 € / 40 € / 20 € schemą. Tos schemos tekstų P8.3 archyve nebuvo.
