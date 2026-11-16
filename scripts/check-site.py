@@ -160,7 +160,8 @@ def main():
                         ("Inventorizacija PRO PRO", "200.00", "EUR"),
                         ("Android programa", "40.00", "EUR"),
                         ("Skenerio nuoma", "40.00", "EUR"),
-                        ("Mokymai ir konsultacijos", "150.00", "EUR"),
+                        ("Mokymai", "300.00", "EUR"),
+                        ("Konsultacijos", "150.00", "EUR"),
                         ("Inventorizacijos valdymas", "900.00", "EUR"),
                     }
                     if not expected.issubset(set(prices)):

@@ -32,7 +32,8 @@ Papildoma inventorizacija ir kiekviena papildoma prieigos diena po 7 dienų kain
 | --- | --- |
 | Android programa | 40 € už skenerį per inventorizaciją |
 | Skenerio nuoma | 40 € už vienetą per darbo dieną |
-| Mokymai ir konsultacijos | 150 €/val. (paprastai 2 val.) |
+| Mokymai | 2 val. – 300 € |
+| Konsultacijos | 150 €/val. |
 | Inventorizacijos valdymas | 900 €/d. |
 
 ## Kur rodoma

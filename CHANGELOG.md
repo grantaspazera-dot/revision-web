@@ -1,5 +1,20 @@
 # Keitimų žurnalas
 
+## 2026-11-16 – DUK, įžvalgos ir mokymų kaina (revision.lt)
+
+Trečias gyvas įkėlimas. Nauji puslapiai: `duk.html` (FAQPage JSON-LD), `kaip-pasiruosti-metinei-inventorizacijai.html`, `kodel-atsiranda-inventorizacijos-trukumai.html`, taip pat `llms.txt`. DUK nuoroda navigacijoje ir poraštėje. Mokymai – 2 val. – 300 € (be PVM); konsultacijos lieka 150 €/val. Peržiūros `noindex` pašalintas. `robots.txt` (`Allow: /` ir Sitemap) ir `CNAME` (`revision.lt`) grąžinti iš gyvo rinkinio. `sitemap.xml` paimtas iš peržiūros: 15 adresų, visi `https://revision.lt/`. Kanoniniai adresai lieka `https://revision.lt/`. Užklausos forma lieka `https://forma.revision.lt/send.php`.
+
+Neliesta: `.github/workflows/deploy.yml`.
+
+Atsarginė kopija prieš šį įkėlimą: šaka `backup/pre-pro3-2026-11-16` ir žyma `pre-pro3-2026-11-16` (commit `9553932`).
+
+### Atšaukimas
+
+```bash
+git revert <šio-commit>
+git push origin main
+```
+
 ## 2026-11-16 – Inventorizacija PRO rezultatai ir etapai (revision.lt)
 
 Antras gyvas įkėlimas tą pačią dieną. `inventorizacija.html` Rezultatų bloke trys veikiančios Inventorizacija PRO ekranų nuotraukos (likučiai, skirtumai, statistika). `revision-online.html` penki etapai aprašyti plačiau. Peržiūros `noindex` pašalintas; `robots.txt`, `sitemap.xml` ir `CNAME` (`revision.lt`) grąžinti iš ankstesnio gyvo rinkinio. Kanoniniai adresai lieka `https://revision.lt/`. Užklausos forma lieka `https://forma.revision.lt/send.php`.
