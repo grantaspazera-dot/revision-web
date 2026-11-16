@@ -1,5 +1,20 @@
 # Keitimų žurnalas
 
+## 2026-11-16 – Inventorizacija PRO rezultatai ir etapai (revision.lt)
+
+Antras gyvas įkėlimas tą pačią dieną. `inventorizacija.html` Rezultatų bloke trys veikiančios Inventorizacija PRO ekranų nuotraukos (likučiai, skirtumai, statistika). `revision-online.html` penki etapai aprašyti plačiau. Peržiūros `noindex` pašalintas; `robots.txt`, `sitemap.xml` ir `CNAME` (`revision.lt`) grąžinti iš ankstesnio gyvo rinkinio. Kanoniniai adresai lieka `https://revision.lt/`. Užklausos forma lieka `https://forma.revision.lt/send.php`.
+
+Neliesta: `.github/workflows/deploy.yml`.
+
+Atsarginė kopija prieš šį įkėlimą: šaka `backup/pre-pro2-2026-11-16` ir žyma `pre-pro2-2026-11-16` (commit `e883e8b`).
+
+### Atšaukimas
+
+```bash
+git revert <šio-commit>
+git push origin main
+```
+
 ## 2026-11-16 – Inventorizacija PRO gyvai (revision.lt)
 
 Į `main` įkeltas peržiūros `site.zip` iš `grantaspazera-dot/revision-web-preview` commit `2a38fef` (ekranų nuotraukos, mokymų žingsniai, Inventorizacija PRO pavadinimas). Peržiūros nustatymai paversti gyvais:
