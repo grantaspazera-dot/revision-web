@@ -75,3 +75,9 @@ git push origin main
 ```
 
 Tai vėl išpakuoja ankstesnį `site.zip`. DNS, `CNAME` ir Pages nustatymų nekeiskite.
+
+## 2026-11-23 – Individualios sistemos puslapis
+
+Naujas `individualios-sistemos.html`: unikali valdymo sistema įmonei (prekės, turtas, procesai, žaliavos), 4 projektai (Inventorizacija PRO, Turto inventorizacija, Gamybos valdymas, REVISION OS) su tikrais programų ekranais ir darbo eiga. Be kainų, be kliento pavadinimo. Pradžios puslapyje nauja sekcija `#sistemos`, poraštėje nuoroda „Individualios sistemos“, `sitemap.xml` papildytas. Viršutinis meniu ir užklausos forma nekeisti. Patvirtinta: „PUBLIKUOK revision.lt“ (2026-11-23 09:35).
+
+Atsarginė žyma: `pre-sistemos-2026-11-23` (b2fb6d5). Atšaukimas: `git revert 79db4cf && git push origin main` (arba atkurti `site.zip` iš žymos).
